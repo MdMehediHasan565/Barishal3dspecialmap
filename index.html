@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Satellite | MD Mehedi Hasan</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div class="interface">
+        <div class="header-panel">
+            <h2 class="title">ULTRA_VISION_V3</h2>
+            <p class="subtitle">LANGUAGE: BANGLA | LAYER: HYBRID SATELLITE</p>
+        </div>
+
+        <div class="side-menu">
+            <p class="menu-label">QUICK_ACCESS</p>
+            <button class="nav-btn" onclick="goto(22.7010, 90.3535, 17)">বরিশাল সদর</button>
+            <button class="nav-btn" onclick="goto(22.7052, 90.3548, 18)">বিএম কলেজ</button>
+            <button class="nav-btn" onclick="goto(22.6860, 90.3600, 19)">জিলা স্কুল রোড</button>
+            <button class="nav-btn" onclick="goto(22.6500, 90.3500, 16)">গ্রামের রাস্তা</button>
+        </div>
+
+        <footer class="dev-footer">
+            <div class="dev-info">
+                <h4>DEV: MD MEHEDI HASAN</h4>
+                <p class="dev-role">SYSTEM ARCHITECT & UI DESIGNER</p>
+            </div>
+            
+            <a href="https://wa.me/8801865514622" target="_blank" class="whatsapp-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+                WHATSAPP
+            </a>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
